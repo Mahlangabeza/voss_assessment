@@ -1,0 +1,21 @@
+{
+  "name": "voss_assessement",
+  "version": "1.0.0",
+  "description": "voss technical assessment",
+  "main": "index.js",
+  "scripts": {
+    "test:headless": "cypress run",
+    "test:headed": "cypress run --headed",
+    "test:chrome": "cypress run --headed --browser chrome",
+    "test:firefox": "cypress run --headed --browser firefox"
+  },
+  "keywords": [
+    "cypress",
+    "javascript"
+  ],
+  "author": "Martin Mahlangabeza",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress-mochawesome-reporter": "^3.8.2"
+  }
+}
